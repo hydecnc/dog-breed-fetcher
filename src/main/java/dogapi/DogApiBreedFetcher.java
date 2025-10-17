@@ -17,13 +17,11 @@ import java.util.*;
 public class DogApiBreedFetcher implements BreedFetcher {
     private final OkHttpClient client = new OkHttpClient();
 
-    /*
+    /**
      * Fetch the JSON object from the given URL, if possible.
      *
      * @param url the url for the API call
-     * 
      * @return JSONObject given as the response from the API call
-     * 
      * @throws IOException if the API call fails
      */
 
